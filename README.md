@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 토이프로젝트
 
 ## Getting Started
 
@@ -12,27 +12,40 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 내용
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 쇼핑몰 상품 리스트 페이지 만들기
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- 완성 기한은 10월 3일(화) 이며, React, JavaScript, TypeScript, Next.js 중 어떤 것을 사용해도 괜찮습니다.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 1. **프로젝트의 주요 요구사항**
 
-## Learn More
+- UI: 사용자 인터페이스를 만들어야 합니다.
+- API 연동: 상품 데이터를 가져오기 위해 API와 연동해야 합니다.
+- 탭: 인기순과 최신순으로 상품을 정렬할 수 있는 탭을 만들어야 합니다.
+- 최신순 탭 필터: 최신순 탭에서는 무료배송, 단독 상품 등을 필터링할 수 있어야 합니다.
+- 인기순 탭 추천상품: 인기순 탭에서는 추천 상품을 표시해야 합니다.
+- 무한스크롤: 상품 목록을 스크롤하면 자동으로 더 많은 상품을 로드해야 합니다.
+- 기타 요구사항: 숫자 포맷팅, 좋아요 등등
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. 라이브러리를 사용할 수 있습니다.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `react-query`, `styled-components`, `ant design` 등 자유롭게 사용 가능.
 
-## Deploy on Vercel
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. 프로젝트 완료 및 공유
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 프로젝트를 완성한 후에는 각자 GitHub으로 공유해 주세요.
+- 배포까지 해준다면 더 좋아요! (CI/CD)
+
+<br>
+
+### 4. 아래 내용을 포함하여 README.md를 작성해주세요:
+
+- 사용한 프레임워크와 라이브러리
+- 구현한 내용과 구현하지 못한 내용
